@@ -1,21 +1,17 @@
 body {
 	margin: 20vh;
 	padding: 20vh;
-	display: flex;
-	flex-direction: column;
 }
 
 #main {
 	display: flex;
-	flex-direction: center;
 	background-color: red;
 
 
 }
 
-.text {
-	display: flex;
-
+.flexbox {
+	justify-content: center;
 
 
 
@@ -23,14 +19,15 @@ body {
 
 #header {
 	background-color: red;
-
+	size: 50px;
 
 
 
 }
 
 #footer{
-
+	display: flex;
+	direction: footer;
 
 
 
